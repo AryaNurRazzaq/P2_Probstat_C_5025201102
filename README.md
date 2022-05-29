@@ -13,12 +13,17 @@ deviasi = sd(x-y)
 
 deviasi
 ```
+> diperoleh hasil  6.359595
+> 
 ### 1.b 
 carilah nilai t (p-value)
 > nilai t (p-value) dapat dicar dengan cara menggunakan `t.test()`
 ``` sh
 t.test(x,y,alternative = "greater",var.equal = FALSE)
 ```
+
+<img width="412" alt="Screen Shot 2022-05-29 at 23 39 43" src="https://user-images.githubusercontent.com/103361498/170881291-ad46590b-9215-4127-a21f-c28871569481.png">
+
 ### 1.c
 Tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
 
@@ -117,6 +122,9 @@ str(Data_no5)
 anova <- aov(Light ~ Glass*Temp_Factor, data = Data_no5)
 summary(anova)
 ```
+
+<img width="351" alt="Screen Shot 2022-05-29 at 23 41 02" src="https://user-images.githubusercontent.com/103361498/170881359-f9e19f70-14be-4ac5-a59b-08b7b094bc0c.png">
+
 
 ### 5.c
 Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk
