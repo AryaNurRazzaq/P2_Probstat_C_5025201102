@@ -137,6 +137,9 @@ arrange(desc(mean))
 print(Summary)
 ```
 
+<img width="229" alt="Screen Shot 2022-05-29 at 23 43 31" src="https://user-images.githubusercontent.com/103361498/170881483-43267d45-f893-4282-ae3d-25480dc6ce79.png">
+
+
 ### 5.d
 Lakukan uji Tukey
 > Menggunakan fungsi `TukeyHSD()`
@@ -144,6 +147,11 @@ Lakukan uji Tukey
 Tukey <- TukeyHSD(anova)
 print(tukey)
 ```
+
+<img width="388" alt="Screen Shot 2022-05-29 at 23 28 27" src="https://user-images.githubusercontent.com/103361498/170881536-de56f5c8-d32b-4e09-af4f-8aa475044b04.png">
+
+<img width="165" alt="Screen Shot 2022-05-29 at 23 28 30" src="https://user-images.githubusercontent.com/103361498/170881547-f45ef172-5870-4748-96c1-be25bb77bf6a.png">
+
 
 ### 5.e
 Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
